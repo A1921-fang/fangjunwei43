@@ -115,7 +115,7 @@ void Clearlist(List *list){
        list->tail = NULL;
 }
 //约瑟夫问题
-void zyl() {
+void yuesefu() {
         int k = 0;
         Node *p, *q, *r;
         p = q = (Node*)malloc(sizeof(Node));  //创建第一个节点
